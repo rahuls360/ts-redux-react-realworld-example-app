@@ -16,7 +16,6 @@ import { endLoad, loadUser } from './App.slice';
 import { ProfilePage } from '../Pages/ProfilePage/ProfilePage';
 import { ArticlePage } from '../Pages/ArticlePage/ArticlePage';
 
-// dummy comment
 export function App() {
   const { loading, user } = useStoreWithInitializer(({ app }) => app, load);
 
